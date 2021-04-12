@@ -1,5 +1,5 @@
 {
-    "name": "antshater/dbal-clickhouse",
+    "name": "kolyadin/dbal-clickhouse",
     "type": "library",
     "description": "Doctrine DBAL driver for ClickHouse",
     "keywords": [

@@ -51,6 +51,8 @@ class ClickHouseConnection implements Connection, PingableConnection, ServerInfo
             'port' => $params['port'] ?? 8123,
             'username' => $username,
             'password' => $password,
+            'https' => true,
+            'sslCA' => $params['sslCA'],
         ], array_merge([
             'database' => $params['dbname'] ?? 'default',
         ], $params['driverOptions'] ?? []));

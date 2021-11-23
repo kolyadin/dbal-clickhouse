@@ -26,7 +26,7 @@ class Connection extends \Doctrine\DBAL\Connection
 {
     public function getSmi2CHClient()
     {
-        return $this->getWrappedConnection()->smi2CHClient();
+        return $this->getWrappedConnection()->getSmi2CHClient();
     }
 
     /**
